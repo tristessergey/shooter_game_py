@@ -208,7 +208,7 @@ while run:
         # пишем текст на экране
         text = font2.render("Счет: " + str(score), 1, (255, 255, 255))
         window.blit(text, (10, 20))
-
+        я тут ошибся
         text_lose = font2.render("Пропущено: " + str(lost), 1, (255, 255, 255))
         window.blit(text_lose, (10, 50))
 
